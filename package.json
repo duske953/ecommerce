@@ -1,0 +1,13 @@
+{
+  "name": "design-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded sass/main.scss:css/styles.css",
+    "sass-prod": "sass --no-source-map --style=compressed sass/main.scss:css/stylesCompiled.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
